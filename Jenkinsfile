@@ -28,7 +28,7 @@ archieveartifact artifact:Factorial.jar
 }
 }
 POST {
-if Successful {
+if (Successful) {
 echo('Build, Test, Run, Package-Artifact ready')
 }
 else {
