@@ -1,7 +1,7 @@
 Pipeline {
   agent any
   Stages {
-    stage('compute') {
+    stage('Compute') {
       steps{
         bat 'javac Factorial.java TestFactorial.java'
       }
